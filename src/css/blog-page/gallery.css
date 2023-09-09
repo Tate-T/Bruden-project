@@ -23,6 +23,7 @@ height: 360px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    margin-bottom: 40px;
 }
 
 .gallery-button-first-page {
@@ -33,6 +34,7 @@ font-weight: 300;
 line-height: normal;
 letter-spacing: 0.9px;
 text-transform: capitalize;
+background-color: #292A33;
 }
 
 .gallery-button-second-page {
@@ -43,4 +45,20 @@ font-weight: 300;
 line-height: normal;
 letter-spacing: 0.9px;
 text-transform: capitalize;
+}
+
+.gallery-button-control {
+    color: #000;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.9px;
+text-transform: capitalize;
+}
+
+.gallery-button-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }

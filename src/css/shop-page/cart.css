@@ -78,10 +78,16 @@
     border: 1px solid rgba(0, 0, 0, 0.30);
 }
 
-.input {
-    width: 233px;
-    outline: none;
-    border: 1px solid var(--grey, #7F7F7F);
+.input-coupon {
+    width: 400px;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    outline:  #292A33;
+    padding-left: 15px;
 }
 
 
@@ -182,6 +188,7 @@
     line-height: normal;
     letter-spacing: 0.9px;
     text-transform: capitalize;
+    justify-content: space-between;
 }
 
 .total2 {

@@ -4,6 +4,15 @@ header {
   padding: 16px 0px 16px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
+.header-logo {
+  width: 125px;
+  height: 27px;
+}
+
+.icon-svg {
+  width: 25px;
+  height: 25px;
+}
 
 .nav-list {
   display: flex;
@@ -14,6 +23,7 @@ header {
 .header-icons-list {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .header-link-list {
@@ -26,10 +36,6 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.header-icons-list {
-  gap: 20px;
 }
 
 .header-link {
@@ -89,3 +95,7 @@ header {
   letter-spacing: 0.7px;
   text-transform: capitalize;
 }
+
+/* .balance-item {
+  margin-left: 15px;
+} */

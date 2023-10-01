@@ -1,106 +1,140 @@
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+  integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<link rel="import" href="../main-page/header.html" />
 <section class="cart">
-    <div class="container">
-        <h2 class="cart-title">
-            Cart
-        </h2>   
-        <div class="border-box">
-            <ul class="cart-list1">
-                <p class="text">
-                    Shop
-                </p>
-                <ul class="cart-sublist">
-                    <li class="card-item">
-                        <p class="text">
-                            Price
-                        </p>
-                    </li>
-                    <li class="card-item">
-                        <p class="text">
-                            Quantity
-                        </p>
-                    </li>
-                    <li class="card-item">
-                    <p class="text">
-                            Subtotal
-                    </p>
-                    </li>
-                </ul>
+  <div class="container">
+    <h2 class="cart-title">Cart</h2>
+    <div class="border-box">
+      <ul class="cart-list1">
+        <p class="text">Shop</p>
+        <ul class="cart-sublist">
+          <li class="card-item">
+            <p class="text">Price</p>
+          </li>
+          <li class="card-item">
+            <p class="text">Quantity</p>
+          </li>
+          <li class="card-item">
+            <p class="text">Subtotal</p>
+          </li>
+        </ul>
+      </ul>
+      <div class="cart-box2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="14"
+          height="14"
+          viewBox="0 0 14 14"
+          fill="none"
+        >
+          <path
+            d="M10.3 10.2997L3.70031 3.70008"
+            stroke="#292A33"
+            stroke-linecap="round"
+          />
+          <path
+            d="M10.2997 3.70008L3.70002 10.2997"
+            stroke="#292A33"
+            stroke-linecap="round"
+          />
+        </svg>
+        <img src="/img/shop-img/CartImg.jpg" alt="" />
+        <p class="cart-text">Fiery Red Bruden Backpack</p>
+        <ul class="cart-sublist2">
+          <li class="card-item2">
+            <p class="card-text2">C$ 445</p>
+          </li>
+          <li class="card-item2">
+            <ul class="list-text">
+              <li>
+                <p class="Quantity">Qty:</p>
+              </li>
+              <li class="border-quintilty">
+                <p class="Quantity2">2</p>
+              </li>
             </ul>
-            <div class="cart-box2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M10.3 10.2997L3.70031 3.70008" stroke="#292A33" stroke-linecap="round"/>
-                    <path d="M10.2997 3.70008L3.70002 10.2997" stroke="#292A33" stroke-linecap="round"/>
-                </svg>
-                <img src="/img/shop-img/CartImg.jpg" alt="">
-                <p class="cart-text">
-                    Fiery Red Bruden Backpack
-                </p>
-                <ul class="cart-sublist2">
-                    <li class="card-item2">
-                        <p class="card-text2">
-                            C$ 99.99
-                        </p>
-                    </li>
-                    <li class="card-item2"> 
-                        <ul class="list-text">
-                            <li>
-                                <p class="Quantity">
-                                    Qty:
-                                </p>
-                            </li>
-                            <li class="border-quintilty">
-                                <p class="Quantity2">
-                                    2
-                                </p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="card-item2">
-                    <p class="card-text3">
-                            C$ 199.98
-                    </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="line3">
-                <div class="input-section">
-                    <input class="input" type="text" name="" id="">
-                    <button class="input-btn" type="button">
-                        Apply coupon
-                    </button>
-                </div>
-                <button class="update-btn" type="button">
-                    Update cart
-                </button>
-            </div>
+          </li>
+          <li class="card-item2">
+            <p class="card-text3">C$ 891.55</p>
+          </li>
+        </ul>
+      </div>
+      <div class="line3">
+        <div class="input-section">
+          <input
+            class="input-coupon"
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter Coupon"
+          />
+          <button class="input-btn" type="button">Apply coupon</button>
         </div>
-        <div class="flex-container">
-            <section class="cart-total">
-                <h3 class="cart-subtitle">
-                    Cart totals
-                </h3>
-               <div class="total-line1">
-                    <p class="subtotal1">
-                        Subtotal
-                    </p>
-                    <p  class="subtotal2">
-                        C$ 199.98
-                    </p>
-               </div>
-               <div class="total-line2">
-                    <p class="total1">
-                        Total
-                    </p>
-                    <p  class="total2">
-                        C$ 199.98
-                    </p>
-               </div>
-               <div class="button-container">
-                    <button class="button" type="button">
-                        Proceed to checkout
-                </button>
-               </div>
-            </section>
-        </div>
+        <button class="update-btn" type="button">Update cart</button>
+      </div>
     </div>
+    <div class="flex-container">
+      <section class="cart-total">
+        <h3 class="cart-subtitle">Cart totals</h3>
+        <div class="total-line1">
+          <p class="subtotal1">Subtotal</p>
+          <p class="subtotal2">C$ 891.55</p>
+        </div>
+        <div class="total-line2">
+          <p class="total1">Total</p>
+          <p class="total2">C$ 891.55</p>
+        </div>
+        <div class="button-container">
+          <button class="button" type="button">Proceed to checkout</button>
+        </div>
+      </section>
+    </div>
+  </div>
 </section>
+
+<script>
+  let minusNumber1 = document.querySelector(".subtotal2");
+  let minusNumber2 = document.querySelector(".total2");
+  let couponButton = document.querySelector(".input-btn");
+  let alreadyExecuted = false;
+  let couponActivated = false;
+  let couponeInput = document.querySelector(".input-coupon");
+
+  const allowedCoupons = ["Svyat", "Artem", "Vika", "GoIteens"];
+
+  couponButton.addEventListener("click", function () {
+    let promocode = couponeInput.value.trim();
+
+    if (allowedCoupons.includes(promocode) && !alreadyExecuted) {
+      anime({
+        targets: minusNumber1,
+        innerHTML: ["C$ 891", "C$ 199.98"],
+        easing: "linear",
+        duration: 1500,
+        round: 100,
+        loop: false,
+      });
+      anime({
+        targets: minusNumber2,
+        innerHTML: ["C$ 891", "C$ 199.98"],
+        easing: "linear",
+        duration: 1500,
+        round: 100,
+        loop: false,
+      });
+      anime({
+        targets: minusNumber3,
+        innerHTML: ["$ 891", "$ 199.98"],
+        easing: "linear",
+        duration: 1500,
+        round: 100,
+        loop: false,
+      });
+      alreadyExecuted = true;
+    }
+  });
+</script>

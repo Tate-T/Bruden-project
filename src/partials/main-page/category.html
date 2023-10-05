@@ -1,10 +1,12 @@
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <section class="category-section">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <h2 class="category-title">Shop By Category</h2>
         <div class="border"></div>
         <div class="category-content">
-            <ul class="category-list">
-                <li class="category-item">
+            <ul class="swiper category-list">
+                <li class="swiper category-item">
                     <a href="../shop-page.html">
                     <img class="category-img" src="/img/main-img/backpack.webp" alt="Backpack">
                     <p class="category-subtitle">Bags</p>
@@ -25,7 +27,7 @@
             </ul>
         </div>
     </div>
-    <div class="buttons-box">
+    <div class="buttons-box" data-aos="fade-up">
         <button type="button" class="left-arrowbtn">
             <img class="left-arrow" src="/img/main-img/left-arrow.png" alt="">
         </button>
@@ -34,3 +36,9 @@
         </button>
     </div>
 </section>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>

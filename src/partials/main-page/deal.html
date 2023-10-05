@@ -1,5 +1,7 @@
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <section class="deal">
-  <div class="container">
+  <div class="container" data-aos="fade-up">
     <h2 class="deal-title">Deal of the week</h2>
     <div class="border"></div>
     <ul class="deal-list">
@@ -44,7 +46,7 @@
       </li>
     </ul>
   </div>
-  <div class="buttons-box">
+  <div class="buttons-box" data-aos="fade-up">
     <button type="button" class="left-arrowbtn">
         <img class="left-arrow" src="/img/main-img/left-arrow.png" alt="">
     </button>
@@ -52,3 +54,8 @@
         <img class="right-arrow" src="/img/main-img/right-arrow.png" alt="">
     </button>
 </section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>

@@ -29,6 +29,7 @@
   padding: 0;
   cursor: pointer;
   margin-top: 20px;
+  flex-wrap: 3;
 }
 
 .category-item {
